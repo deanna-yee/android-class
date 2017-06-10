@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main_menu"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.yee.speedymath.NumberActivity"
+    android:layout_marginTop="30dp">
+
+    <TextView
+        android:id="@+id/choose_a_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="casual"
+        android:text="Choose a number"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="40sp"
+        android:layout_marginBottom="40dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1"
+        android:id="@+id/number_1"
+        android:layout_below="@+id/choose_a_number"
+        android:layout_toStartOf="@+id/number_2"
+        android:layout_toLeftOf="@+id/number_2"
+        android:textSize="25sp"
+        android:layout_marginBottom="10dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2"
+        android:id="@+id/number_2"
+        android:layout_below="@+id/choose_a_number"
+        android:layout_centerHorizontal="true"
+        android:textSize="25sp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginBottom="10dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3"
+        android:id="@+id/number_3"
+        android:layout_below="@+id/choose_a_number"
+        android:layout_toEndOf="@+id/number_2"
+        android:layout_toRightOf="@+id/number_2"
+        android:layout_marginBottom="10dp"
+        android:textSize="25sp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="4"
+        android:id="@+id/number_4"
+        android:layout_below="@+id/number_1"
+        android:layout_toStartOf="@+id/number_5"
+        android:layout_toLeftOf="@+id/number_5"
+        android:layout_marginBottom="10dp"
+        android:textSize="25sp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="5"
+        android:id="@+id/number_5"
+        android:layout_below="@+id/number_2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginBottom="10dp"
+        android:textSize="25sp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="6"
+        android:id="@+id/number_6"
+        android:layout_below="@+id/number_3"
+        android:layout_toEndOf="@+id/number_5"
+        android:layout_toRightOf="@+id/number_5"
+        android:layout_marginBottom="10dp"
+        android:textSize="25sp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="7"
+        android:id="@+id/number_7"
+        android:layout_below="@+id/number_4"
+        android:layout_toStartOf="@+id/number_8"
+        android:layout_toLeftOf="@+id/number_8"
+        android:layout_marginBottom="10dp"
+        android:textSize="25sp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="8"
+        android:id="@+id/number_8"
+        android:layout_below="@+id/number_5"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginBottom="10dp"
+        android:textSize="25sp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="9"
+        android:id="@+id/number_9"
+        android:layout_below="@+id/number_6"
+        android:layout_toEndOf="@+id/number_8"
+        android:layout_toRightOf="@+id/number_8"
+        android:layout_marginBottom="10dp"
+        android:textSize="25sp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="10"
+        android:id="@+id/number_10"
+        android:layout_below="@+id/number_7"
+        android:layout_toStartOf="@+id/number_11"
+        android:layout_toLeftOf="@+id/number_11"
+        android:layout_marginBottom="10dp"
+        android:textSize="25sp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="11"
+        android:id="@+id/number_11"
+        android:layout_below="@+id/number_8"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginBottom="10dp"
+        android:textSize="25sp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="12"
+        android:id="@+id/number_12"
+        android:layout_below="@+id/number_9"
+        android:layout_toEndOf="@+id/number_11"
+        android:layout_toRightOf="@+id/number_11"
+        android:layout_marginBottom="10dp"
+        android:textSize="25sp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="random"
+        android:id="@+id/number_random"
+        android:layout_below="@+id/number_11"
+        android:layout_alignLeft="@id/number_10"
+        android:layout_alignStart="@id/number_10"
+        android:layout_alignEnd="@id/number_12"
+        android:layout_alignRight="@id/number_12"
+        android:layout_marginBottom="10dp"
+        android:textSize="25sp"/>
+
+</RelativeLayout>

@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.yee.longevitycalculator.MainActivity">
+
+    <TextView
+        android:text="@string/gender"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/smokingLabel"
+        android:layout_alignLeft="@+id/smokingLabel"
+        android:layout_alignStart="@+id/smokingLabel"
+        android:layout_alignEnd="@+id/smokingLabel"
+        android:textSize="24sp"
+        android:textColor="@android:color/black"
+        android:background="?attr/colorButtonNormal"
+        android:padding="8dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/genderLabel" />
+
+    <RadioGroup
+        android:id="@+id/gender"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_toRightOf="@+id/genderLabel"
+        android:layout_toEndOf="@+id/genderLabel"
+        android:layout_alignBottom="@+id/genderLabel"
+        android:orientation="horizontal"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="20dp"
+    >
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/female"
+            android:id="@+id/female"
+            android:layout_marginRight="16dp"
+            android:layout_marginEnd="16dp"
+            android:textSize="18sp" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/male"
+            android:id="@+id/male"
+            android:layout_marginLeft="16dp"
+            android:layout_marginStart="16dp"
+            android:textSize="18sp" />
+    </RadioGroup>
+
+    <TextView
+        android:text="@string/age"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/genderLabel"
+        android:layout_alignLeft="@+id/smokingLabel"
+        android:layout_alignRight="@+id/smokingLabel"
+        android:layout_alignStart="@+id/smokingLabel"
+        android:layout_alignEnd="@+id/smokingLabel"
+        android:layout_marginTop="20dp"
+        android:textSize="24sp"
+        android:textColor="@android:color/black"
+        android:background="?attr/colorButtonNormal"
+        android:padding="8dp"
+        android:id="@+id/ageLabel"
+         />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/age"
+        android:textAlignment="center"
+        android:hint="@string/age"
+        android:layout_below="@+id/gender"
+        android:layout_alignRight="@+id/gender"
+        android:layout_alignLeft="@+id/gender"
+        android:layout_alignEnd="@+id/gender"
+        android:layout_alignStart="@+id/gender"
+        android:layout_toRightOf="@+id/ageLabel"
+        android:layout_toEndOf="@+id/ageLabel"
+        android:layout_marginTop="20dp"
+        android:textColor="#0000ff" />
+
+    <TextView
+        android:text="@string/weight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ageLabel"
+        android:layout_alignLeft="@+id/smokingLabel"
+        android:layout_alignRight="@+id/smokingLabel"
+        android:layout_alignEnd="@+id/smokingLabel"
+        android:layout_alignStart="@+id/smokingLabel"
+        android:layout_marginTop="20dp"
+        android:textSize="24sp"
+        android:textColor="@android:color/black"
+        android:background="?attr/colorButtonNormal"
+        android:padding="8dp"
+        android:id="@+id/weightLabel" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/weightLabel"
+        android:layout_toEndOf="@+id/weightLabel"
+        android:layout_alignLeft="@+id/gender"
+        android:layout_alignRight="@+id/gender"
+        android:layout_alignEnd="@+id/gender"
+        android:layout_alignStart="@+id/gender"
+        android:layout_below="@+id/age"
+        android:layout_marginTop="20dp"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/weight"
+        android:hint="@string/weight"
+        android:textAlignment="center"
+        android:textColor="#0000ff"/>
+
+    <TextView
+        android:text="@string/height"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/weightLabel"
+        android:layout_alignLeft="@+id/smokingLabel"
+        android:layout_alignRight="@+id/smokingLabel"
+        android:layout_alignEnd="@+id/smokingLabel"
+        android:layout_alignStart="@+id/smokingLabel"
+        android:layout_marginTop="20dp"
+        android:textSize="24sp"
+        android:textColor="@android:color/black"
+        android:background="?attr/colorButtonNormal"
+        android:padding="8dp"
+        android:id="@+id/heightLabel" />
+
+    <EditText
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/weight"
+        android:layout_alignLeft="@+id/gender"
+        android:layout_alignStart="@+id/gender"
+        android:layout_toRightOf="@+id/heightLabel"
+        android:layout_toEndOf="@+id/heightLabel"
+        android:layout_marginTop="20dp"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/heightFeet"
+        android:hint="@string/feet"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        android:textColor="#0000ff"/>
+
+    <EditText
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/weight"
+        android:layout_alignRight="@+id/gender"
+        android:layout_alignEnd="@+id/gender"
+        android:layout_toRightOf="@+id/heightFeet"
+        android:layout_toEndOf="@+id/heightFeet"
+        android:layout_marginTop="20dp"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/heightInches"
+        android:hint="@string/inches"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        android:textColor="#0000ff"/>
+
+
+    <TextView
+        android:text="@string/smoking"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/heightLabel"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:textSize="24sp"
+        android:textColor="@android:color/black"
+        android:background="?attr/colorButtonNormal"
+        android:padding="8dp"
+        android:id="@+id/smokingLabel" />
+
+    <Spinner
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:id="@+id/smokingSpinner"
+        android:layout_alignLeft="@+id/gender"
+        android:layout_alignRight="@+id/gender"
+        android:layout_alignEnd="@+id/gender"
+        android:layout_alignStart="@+id/gender"
+        android:layout_below="@+id/heightFeet"
+        android:layout_toRightOf="@+id/smokingLabel"
+        android:layout_toEndOf="@+id/smokingLabel"
+        android:layout_marginTop="20dp"
+        />
+
+    <TextView
+        android:text="@string/lifestyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/smokingLabel"
+        android:layout_alignRight="@+id/smokingLabel"
+        android:layout_alignLeft="@+id/smokingLabel"
+        android:layout_alignStart="@+id/smokingLabel"
+        android:layout_alignEnd="@+id/smokingLabel"
+        android:layout_marginTop="20dp"
+        android:id="@+id/lifestyleLabel"
+        android:textSize="24sp"
+        android:textColor="@android:color/black"
+        android:background="?attr/colorButtonNormal"
+        android:padding="8dp"
+        />
+
+    <Spinner
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:id="@+id/lifestyleSpinner"
+        android:layout_alignRight="@+id/gender"
+        android:layout_below="@+id/smokingSpinner"
+        android:layout_toRightOf="@+id/lifestyleLabel"
+        android:layout_toEndOf="@+id/lifestyleLabel"
+        android:layout_alignLeft="@+id/gender"
+        android:layout_alignEnd="@+id/gender"
+        android:layout_alignStart="@+id/gender"
+        android:layout_marginTop="20dp"
+        />
+
+    <Button
+        android:text="@string/done"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="40dp"
+        android:id="@+id/done"
+        android:textSize="22sp"
+        android:textStyle="normal|bold"
+        android:layout_centerInParent="true"
+        />
+
+</RelativeLayout>

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Magic 8-Ball</string>
+    <string name="ask">Ask</string>
+    <string name="think_of_a_question_and_ask">Think of a question and ask</string>
+</resources>

@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">Car Catalog</string>
+    <string name="hello_round">Hello Round World!</string>
+    <string name="hello_square">Hello Square World!</string>
+
+    <string-array name="focus">
+        <item name="model">"Focus"</item>
+        <item name="year">2015</item>
+        <item name="price">13499</item>
+         <item name="specs">
+             A 160-hp 2.0-liter four-cylinder is standard but a 123-hp 1.0-liter
+             turbo three-cylinder with auto start-stop is optional for extra
+             efficiency. A six-speed dual-clutch automatic is available but we
+             prefer the five-speed manual. A handsome exterior and functional
+             interior with a load of standard and available features win the
+             Focus extra style points.
+         </item>
+        <item name="image">@drawable/bg_blue_focus</item>
+    </string-array>
+    <string-array name="fusion">
+        <item name="model">"Fusion"</item>
+        <item name="year">2015</item>
+        <item name="price">21999</item>
+         <item name="specs">
+             The base engine is a 175-hp 2.5-liter four, but optional 181-hp
+             1.5-liter or 240-hp 2.0-liter turbo fours aim to provide a little
+             extra zip. All are mated to a six-speed automatic with front or
+             all-wheel drive. Two hybrid models are available, both with a
+             2.0-liter four paired with an electric motor for a combined
+             188 hp; the plug-in model offers a 19-mile electric-only range.
+         </item>
+        <item name="image">@drawable/bg_red_fusion</item>
+    </string-array>
+    <string-array name="mustang">
+        <item name="model">"Mustang"</item>
+        <item name="year">2015</item>
+        <item name="price">25349</item>
+         <item name="specs">
+             A 300-hp 3.7-liter V-6, a 310-hp 2.3-liter turbo four-cylinder,
+             and a 435-hp 5.0-liter V-8 are all offered with a six-speed
+             manual or six-speed automatic. An independent rear suspension
+             improves its ride and provides better cornering. In either coupe
+             or convertible form, the Mustang appeals without compromising its
+             heritage.
+         </item>
+        <item name="image">@drawable/bg_white_mustang</item>
+    </string-array>
+    <array name="cars">
+        <item>@array/focus</item>
+        <item>@array/fusion</item>
+        <item>@array/mustang</item>
+    </array>
+</resources>

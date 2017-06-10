@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Quoter</string>
+    <string name="direction">Double tap to display quotes</string>
+</resources>

@@ -1,0 +1,27 @@
+Deanna Yee
+G01062883
+Final Project
+
+Final Project Name: Speedy Math
+
+Final Project Description: A math game to practice your arithmetic (addition, 
+	substraction, or multiplication) for numbers 1 - 12. You can choose a certain number or random to practice all the numbers. On the first layout page the title and 4 buttons for addition, substraction, multiplication, and random will be displayed. Choose one of the four buttons to determine what arithmetic will be used for the game, if random is choosen all arithmetic will be used during that game. If a certain symbol is selected that symbol will always be displayed. If random is selected a random symbol will be displayed for each equation. In the next layout Choose one of the thirteen buttons to choose the number to practice, or random for all the numbers. If a number is selected one of the text fields will stay that number while the other text field will choose a number between 1 and 12. If random is selected both text fields will randomly choose numbers between 0 and 12. The last layout will have the a text field for the countdown timer, 2 text fields for the number, a text field for the symbol and an input field for the answer. A dialog will be displayed with a button to start the game and timer and another dialog will be displayed to show the final score and 2 buttons to either play again or go back to the main menu. In the menu the different options for how long the countdown timer is.  
+
+Activity or fragment files: 
+	Select addition, subtraction, multiplication, or random
+	Select 1 - 12 or random
+	Display the two numbers, arithmetic symbol, countdown and input field
+
+Widgets: 16 buttons, 1 input number field
+
+menu: used to choose how long the timer will be
+	menu options: 30 secs, 1 min (default option), 1.5 mins, 2 mins
+
+layouts: relative layout or constraint layout
+	Select addition, subtraction, multiplication, or random using buttons
+	Select 1 - 12 or random using buttons
+	Display the two numbers, arithmetic symbol, countdown timer and input field
+
+advanced feature: intents, countdown timer
+	Intent to pass arithmetic symbol, and number choosen
+	Countdown timer to determine how long the game lasts  

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Speedy Math</string>
+    <string name="addition">Addition (+)</string>
+    <string name="math">MATH</string>
+    <string name="multiplication_x">Multiplication (x)</string>
+    <string name="random_x">Random (+, -, x)</string>
+    <string name="speedy">SPEEDY</string>
+    <string name="subtraction">Subtraction (-)</string>
+</resources>

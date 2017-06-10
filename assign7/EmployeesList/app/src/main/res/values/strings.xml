@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Employees List</string>
+    <string name="action_settings">Settings</string>
+    <string name="dummy_text">Dummy Text</string>
+</resources>

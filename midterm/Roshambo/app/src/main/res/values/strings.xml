@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Roshambo</string>
+    <string name="paper">PAPER</string>
+    <string name="play">Play</string>
+    <string name="rock">ROCK</string>
+    <string name="scissors">SCISSORS</string>
+    <string name="lizard">LIZARD</string>
+    <string name="spock">SPOCK</string>
+</resources>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="images">
+        <item>@drawable/rat</item>
+        <item>@drawable/ox</item>
+        <item>@drawable/tiger</item>
+        <item>@drawable/rabbit</item>
+        <item>@drawable/dragon</item>
+        <item>@drawable/snake</item>
+        <item>@drawable/horse</item>
+        <item>@drawable/goat</item>
+        <item>@drawable/monkey</item>
+        <item>@drawable/rooster</item>
+        <item>@drawable/dog</item>
+        <item>@drawable/pig</item>
+    </array>
+
+    <string-array name="names">
+        <item>Rat</item>
+        <item>Ox</item>
+        <item>Tiger</item>
+        <item>Rabbit</item>
+        <item>Dragon</item>
+        <item>Snake</item>
+        <item>Horse</item>
+        <item>Goat</item>
+        <item>Monkey</item>
+        <item>Rooster</item>
+        <item>Dog</item>
+        <item>Pig</item>
+    </string-array>
+
+    <string-array name="descriptions">
+        <item>Rat: 2008, 1996, 1984, 1972, 1960. Intelligent, adaptable, quick-witted, charming,
+                artistic, sociable.  Compatible with Ox, Dragon, or Rabbit.</item>
+        <item> Ox: 2009, 1997, 1985, 1973, 1961. Loyal, reliable, thorough, strong, reasonable,
+                steady, determined. Compatible with Rat, Monkey, or Rooster.</item>
+        <item>Tiger: 2010, 1998, 1986, 1974, 1962. Enthusiastic, courageous, ambitious, leadership,
+                confidence, charismatic. Compatible with Dragon, Horse, or Pig.</item>
+        <item>Rabbit: 2011, 1999, 1987, 1975, 1963. Trustworthy, empathic, modest, diplomatic,
+                sincere, sociable, caretakers. Compatible with Rat, Goat, Monkey, or Dog.</item>
+        <item>Dragon: 2012, 2000, 1988, 1976, 1964. Lucky, flexible, eccentric, imaginative,
+                artistic, spiritual, charismatic. Compatible with Rat, Tiger or Snake.</item>
+        <item>Snake: 2013, 2001, 1989, 1977, 1965. Philosophical, organized, intelligent,
+                intuitive, elegant, attentive, decisive. Compatible with Dragon or Rooster.</item>
+        <item>Horse: 2014, 2002, 1990, 1978, 1966. Adaptable, loyal, courageous, ambitious,
+                intelligent, adventurous, strong. Compatible with Goat or Tiger.</item>
+        <item>Goat: 2015, 2003, 1991, 1979, 1967. Tasteful, crafty, warm, elegant, charming,
+                intuitive, sensitive, calm. Compatible with Rabbit, Horse or Pig.</item>
+        <item>Monkey: 2016, 2004, 1992, 1980, 1968. Quick-witted, charming, lucky, adaptable,
+                bright, versatile, lively, smart. Compatible with Ox or Rabbit.</item>
+        <item>Rooster: 2017, 2005, 1993, 1981, 1969. Honest, energetic, intelligent, flamboyant,
+                flexible, diverse, confident. Compatible with Ox or Snake.</item>
+        <item>Dog: 2018, 2006, 1994, 1982, 1970. Loyal, sociable, courageous, diligent, steady,
+                lively, adaptable, smart. Compatible with Rabbit.</item>
+        <item>Pig: 2019, 2007, 1995, 1983, 1971. Honorable, philanthropic, determined, optimistic,
+                sincere, sociable. Compatible with Goat, Tiger, or Rabbit.</item>
+    </string-array>
+
+    <string-array name="urls">
+        <item>http://www.chinahighlights.com/travelguide/chinese-zodiac/rat.htm</item>
+        <item>http://www.chinahighlights.com/travelguide/chinese-zodiac/ox.htm</item>
+        <item>http://www.chinahighlights.com/travelguide/chinese-zodiac/tiger.htm</item>
+        <item>http://www.chinahighlights.com/travelguide/chinese-zodiac/rabbit.htm</item>
+        <item>http://www.chinahighlights.com/travelguide/chinese-zodiac/dragon.htm</item>
+        <item>http://www.chinahighlights.com/travelguide/chinese-zodiac/snake.htm</item>
+        <item>http://www.chinahighlights.com/travelguide/chinese-zodiac/horse.htm</item>
+        <item>http://www.chinahighlights.com/travelguide/chinese-zodiac/goat.htm</item>
+        <item>http://www.chinahighlights.com/travelguide/chinese-zodiac/monkey.htm</item>
+        <item>http://www.chinahighlights.com/travelguide/chinese-zodiac/rooster.htm</item>
+        <item>http://www.chinahighlights.com/travelguide/chinese-zodiac/dog.htm</item>
+        <item>http://www.chinahighlights.com/travelguide/chinese-zodiac/pig.htm</item>
+    </string-array>
+</resources>

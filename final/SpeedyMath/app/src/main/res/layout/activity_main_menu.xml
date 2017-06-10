@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main_menu"
+    android:fitsSystemWindows="true"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.yee.speedymath.MainMenuActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay"/>
+    </android.support.design.widget.AppBarLayout>
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tool="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="75dp">
+
+        <TextView
+            android:id="@+id/speedy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="cursive"
+            android:text="@string/speedy"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textSize="85sp"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:id="@+id/math"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="cursive"
+            android:text="@string/math"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textSize="85sp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/speedy"
+            android:layout_marginBottom="25dp"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/addition"
+            android:id="@+id/add"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/math"
+            android:layout_alignLeft="@+id/mult"
+            android:layout_alignEnd="@+id/mult"
+            android:layout_alignRight="@+id/mult"
+            android:layout_alignStart="@+id/mult"
+            android:textSize="25sp"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/subtraction"
+            android:id="@+id/sub"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/add"
+            android:layout_alignLeft="@+id/mult"
+            android:layout_alignEnd="@+id/mult"
+            android:layout_alignRight="@+id/mult"
+            android:layout_alignStart="@+id/mult"
+            android:textSize="25sp"/>
+
+        <Button
+            android:id="@+id/mult"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/sub"
+            android:layout_centerHorizontal="true"
+            android:text="@string/multiplication_x"
+            android:textSize="25sp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/random_x"
+            android:id="@+id/random"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/mult"
+            android:layout_alignLeft="@+id/mult"
+            android:layout_alignEnd="@+id/mult"
+            android:layout_alignRight="@+id/mult"
+            android:layout_alignStart="@+id/mult"
+            android:textSize="25sp"/>
+
+    </RelativeLayout>
+
+
+</android.support.design.widget.CoordinatorLayout>
